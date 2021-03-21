@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/failedFragment"
         android:name="com.example.calculate.FailedFragment"
-        android:label="fragment_failed"
-        tools:layout="@layout/fragment_failed" >
+        android:label="@string/nav_fail"
+        tools:layout="@layout/fragment_failed">
         <action
             android:id="@+id/action_failedFragment_to_masterFragment"
             app:destination="@id/masterFragment" />
@@ -17,8 +17,8 @@
     <fragment
         android:id="@+id/questionFragment"
         android:name="com.example.calculate.QuestionFragment"
-        android:label="fragment_question"
-        tools:layout="@layout/fragment_question" >
+        android:label="@string/nav_Test"
+        tools:layout="@layout/fragment_question">
         <action
             android:id="@+id/action_questionFragment_to_failedFragment"
             app:destination="@id/failedFragment" />
@@ -29,8 +29,8 @@
     <fragment
         android:id="@+id/winFragment"
         android:name="com.example.calculate.WinFragment"
-        android:label="fragment_win"
-        tools:layout="@layout/fragment_win" >
+        android:label="@string/nav_Win"
+        tools:layout="@layout/fragment_win">
         <action
             android:id="@+id/action_winFragment_to_masterFragment"
             app:destination="@id/masterFragment" />
@@ -38,8 +38,8 @@
     <fragment
         android:id="@+id/masterFragment"
         android:name="com.example.calculate.MasterFragment"
-        android:label="master_fragment"
-        tools:layout="@layout/master_fragment" >
+        android:label="@string/app_name"
+        tools:layout="@layout/master_fragment">
         <action
             android:id="@+id/action_masterFragment_to_questionFragment"
             app:destination="@id/questionFragment" />

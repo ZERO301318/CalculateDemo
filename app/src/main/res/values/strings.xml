@@ -2,18 +2,40 @@
     <string name="app_name">Calculate Test</string>
     <string name="btn_start">Start Test</string>
     <string name="txt_highest_score">High Score:%d</string>
+
 <!--    BUTTON-->
-    <string name="btn0">0</string>
-    <string name="button0">0</string>
-    <string name="button1">1</string>
-    <string name="button2">2</string>
-    <string name="button3">3</string>
-    <string name="button4">4</string>
-    <string name="button5">5</string>
-    <string name="button6">6</string>
-    <string name="button7">7</string>
-    <string name="button8">8</string>
-    <string name="button9">9</string>
-    <string name="btn_clear">C</string>
-    <string name="btn_enter">Enter</string>
+    <string name="btn0" translatable="false">0</string>
+    <string name="button0" translatable="false">0</string>
+    <string name="button1" translatable="false">1</string>
+    <string name="button2" translatable="false">2</string>
+    <string name="button3" translatable="false">3</string>
+    <string name="button4" translatable="false">4</string>
+    <string name="button5" translatable="false">5</string>
+    <string name="button6" translatable="false">6</string>
+    <string name="button7" translatable="false">7</string>
+    <string name="button8" translatable="false">8</string>
+    <string name="button9" translatable="false">9</string>
+    <string name="clear" translatable="false">C</string>
+    <string name="equal" translatable="false">=</string>
+    <string name="back">back</string>
+
+<!--    imgView TODO-->
+    <string name="img_description">the welcome description</string>
+    
+    <string name="current_score">Current Score:%d</string>
+    <string name="win">Congratulation!</string>
+    <string name="fail">Failed</string>
+    <string name="new_score">New Score:%d</string>
+    <string name="lower_score">The Score:%d</string>
+    <string name="your_answer">Your Answer:</string>
+    <string name="right_answer">Right Answer</string>
+
+<!--    AlertDialog-->
+    <string name="quit_alert_title">Are You Sure To Quit?</string>
+    <string name="alert_positive_message">OK</string>
+    <string name="alert_negative_message">CANCEL</string>
+    <string name="nav_Test">Test</string>
+    <string name="nav_Win">Test Win</string>
+    <string name="nav_fail">Test Failed</string>
+
 </resources>

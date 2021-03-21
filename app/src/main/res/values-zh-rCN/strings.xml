@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">口算测试</string>
+    <string name="btn_start">开始测试</string>
+    <string name="txt_highest_score">最高得分:%d</string>
+    <string name="back">返回</string>
+    <string name="img_description">首页图片</string>
+    <string name="current_score">当前得分:%d</string>
+    <string name="win">创造了新纪录</string>
+    <string name="fail">失败</string>
+    <string name="new_score">新记录:%d</string>
+    <string name="lower_score">本次记录:%d</string>
+    <string name="your_answer">你的回答:</string>
+    <string name="right_answer">回答正确</string>
+    <string name="quit_alert_title">确定返回?</string>
+    <string name="alert_positive_message">确定</string>
+    <string name="alert_negative_message">取消</string>
+    <string name="nav_Test">口算测试</string>
+    <string name="nav_Win">创造新纪录</string>
+    <string name="nav_fail">测试失败</string>
+</resources>
