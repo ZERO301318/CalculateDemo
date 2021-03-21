@@ -29,7 +29,9 @@ public class QuestionFragment extends Fragment implements View.OnClickListener {
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_question,container,false);
         binding.setData(myViewModel);
         binding.setLifecycleOwner(requireActivity());
-        myViewModel.generator();
+        //第一次进入页面，生成题目
+        if(myViewModel.getCurrentScore().getValue() == 0)
+            myViewModel.generator();
         stringBuilder = new StringBuilder();
         setLinstener();
         return binding.getRoot();
